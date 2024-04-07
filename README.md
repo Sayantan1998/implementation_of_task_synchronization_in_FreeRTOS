@@ -13,4 +13,4 @@ The "FreeRTOS" folder contains C code for essentiial components like event group
 The "ek-tm4c123gxl" folder contains the header file and C souce file for the EK-TM4C123GXL Evaluation board.
 
 To run the code follow the directions:-    
-Download keil MDk IDE -> open tm4c123-freertos-keil folder -> click on "lesson.uvprojx" file
+Download keil MDk IDE -> open tm4c123-freertos-keil folder -> click on "lesson.uvprojx" file -> choose the target debug -> Build the project -> press (ctrl+F5) to start/stop the debug session
