@@ -6,7 +6,7 @@ The "bsp.h" initializes methods, system clock ticks and semaphores.
 
 The code present in "bsp.c" is for a board support package (BSP) for a development board with a TM4C123GXL microcontroller. It initializes the board including LEDs and a switch, sets up interrupt handling for the switch, and provides functions to control the LEDs. It also includes callbacks for FreeRTOS, a real-time operating system. The code appears to handle some low-power functionality as well. There is an assert function that turns on all LEDs if assertions are enabled for debugging purposes
 
-"FreeRTOSCongig.h is a configuration file for FreeRTOS, a real-time operating system. It defines various settings for the OS, such as memory allocation, task priorities, and timer behavior. The file allows users to adjust these settings based on their specific hardware and application needs. It also includes comments that explain what each setting does and refer to the FreeRTOS documentation for more details.
+"FreeRTOSCongig.h" is a configuration file for FreeRTOS, a real-time operating system. It defines various settings for the OS, such as memory allocation, task priorities, and timer behavior. The file allows users to adjust these settings based on their specific hardware and application needs. It also includes comments that explain what each setting does and refer to the FreeRTOS documentation for more details.
 
 The "FreeRTOS" folder contains C code for essentiial components like event groups, list, semaphores, timer, queue, stream buffer and tasks.
 
