@@ -1,6 +1,3 @@
-// Modified by Quantum Leaps
-//
-//
 // FreeRTOS Kernel V10.0.1
 // Copyright (C) 2017 Amazon.com, Inc. or its affiliates.  All Rights Reserved.
 //
